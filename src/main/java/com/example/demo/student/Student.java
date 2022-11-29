@@ -16,7 +16,7 @@ public class Student {
     private long id;
     private String name;
     private String email;
-    private LocalDate dob;
+    private String dob;
     private Integer age;
 
 
@@ -27,7 +27,7 @@ public class Student {
     public Student(long id,
                    String name,
                    String email,
-                   LocalDate dob,
+                   String dob,
                    Integer age
                    ) {
         this.id = id;
@@ -39,7 +39,7 @@ public class Student {
     public Student(
                    String name,
                    Integer age,
-                   LocalDate dob,
+                   String dob,
                    String email) {
         this.name = name;
         this.age = age;
@@ -71,11 +71,11 @@ public class Student {
         this.age = age;
     }
 
-    public LocalDate getDob() {
+    public String getDob() {
         return dob;
     }
 
-    public void setDob(LocalDate dob) {
+    public void setDob(String dob) {
         this.dob = dob;
     }
 

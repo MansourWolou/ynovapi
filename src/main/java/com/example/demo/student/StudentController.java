@@ -35,11 +35,9 @@ public class StudentController {
 
     @PostMapping("students/add")
     public void add(@RequestBody Student student){
-
+        System.out.println(student);
         studentService.save(student);
     }
-
-
 
     @DeleteMapping("students/delete/{id}")
     public ResponseEntity<String> delete(@PathVariable Integer id){

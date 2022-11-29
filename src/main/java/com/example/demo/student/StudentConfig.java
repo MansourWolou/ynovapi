@@ -24,13 +24,13 @@ public class StudentConfig {
             Student siki = new Student(
                     "siki",
                     21,
-                    LocalDate.of(2000, JANUARY,5),
+                    "2000-01-05",
                     "true@argent.tg"
             );
             Student soko = new Student(
                     "soko",
                     21,
-                    LocalDate.of(2004, JANUARY,5),
+                    "2000-01-05",
                     "trsfue@argent.tg"
             );
             repository.saveAll(
