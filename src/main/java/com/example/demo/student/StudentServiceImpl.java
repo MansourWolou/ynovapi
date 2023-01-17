@@ -9,6 +9,7 @@ import java.util.Optional;
 public class StudentServiceImpl implements StudentService{
     private final StudentRepository studentRepository;
 
+    // ici aussi je fait une injection de dépendance
     public StudentServiceImpl( StudentRepository repository){
         this.studentRepository = repository;
     }

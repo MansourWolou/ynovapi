@@ -13,7 +13,7 @@ import java.util.Optional;
 public class StudentController {
     private final StudentService studentService;
 
-    @Autowired // cablage auto permettant l'inject ion d'un object plutot que son instanciation
+    @Autowired // cablage auto permettant l'injection d'un object plutot que son instanciation
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
     }

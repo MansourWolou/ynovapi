@@ -19,6 +19,7 @@
 	</properties>
 
 	<dependencies>
+<!--		enlever les commentaire  de la dépendance jpa pour persister les objets dans la bdd-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>

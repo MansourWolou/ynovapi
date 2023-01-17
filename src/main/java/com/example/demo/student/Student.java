@@ -3,6 +3,12 @@ package com.example.demo.student;
 import javax.persistence.*;
 import java.time.LocalDate;
 
+/**
+ * La class Student permet de créer une table student
+ * dans la bdd identique à la classe.
+ * Elle permet aussi de persister les données d'un objet student dans la bdd.
+ * C'est à dire que un objet student peut correspond à une ligne dans la table student.
+ */
 @Entity
 @Table(name = "student")
 public class Student {

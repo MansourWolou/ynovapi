@@ -10,6 +10,9 @@ import java.util.List;
 
 import static java.time.Month.*;
 
+/**
+ * Ce ficher permet de crer des données test dans données test qui vont être insérer dans la bdd
+ */
 @Configuration
 public class StudentConfig {
 //    CommandLIneRunner commandLIneRunner(){
